@@ -1,0 +1,85 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Aug 25 13:51:25 2017
+
+@author: arjanhada
+"""
+
+# Test cases for the class Vector  
+
+my_vector = Vector([8.218, -9.341])
+v = Vector([-1.129, 2.111])
+print('Vector addition:-', my_vector.plus(v))
+
+my_vector = Vector([7.119, 8.215])
+v = Vector([-8.223, 0.878])
+print('Vector substraction:-', my_vector.minus(v))
+
+my_vector = Vector([1.671, -1.012, -0.318])
+s = 7.41
+print('Scalar multiplication:-', my_vector.times_scalar(s))
+
+my_vector = Vector([-0.221, 7.437])
+print('Magnitude of vector:-', my_vector.magnitude())
+
+my_vector = Vector([8.813, -1.331, -6.247])
+print('Magnitude of vector:-', my_vector.magnitude())
+
+my_vector = Vector([5.581, -2.136])
+print(my_vector.normalized())
+
+my_vector = Vector([1.996, 3.108, -4.554])
+print(my_vector.normalized())
+
+my_vector = Vector([7.887, 4.138])
+v = Vector([-8.802, 6.776])
+print(my_vector.dot_product(v))
+
+my_vector = Vector([-5.955, -4.904, -1.874])
+v = Vector([-4.496, -8.755, 7.103])
+print(my_vector.dot_product(v))
+
+my_vector = Vector([3.183, -7.627])
+v = Vector([-2.668, 5.319])
+print(my_vector.angle_with(v))
+
+my_vector = Vector([7.35, 0.221, 5.188])
+v = Vector([2.751, 8.259, 3.985])
+print(my_vector.angle_with(v, in_degrees = True))
+
+my_vector = Vector([-7.579, -7.88])
+v = Vector([22.737, 23.64])
+print(my_vector.is_parallel_to(v))
+
+my_vector = Vector([-2.328, -7.284, -1.214])
+v = Vector([-1.821, 1.072, -2.94])
+print(my_vector.is_orthogonal_to(v))
+
+my_vector = Vector([2.118, 4.827])
+v = Vector([0, 0])
+print(my_vector.is_orthogonal_to(v))
+
+my_vector = Vector([3.039, 1.879])
+b = Vector([0.825, 2.036])
+print(my_vector.projection_on(b))
+
+my_vector = Vector([-9.88, -3.264, -8.159])
+b = Vector([-2.155, -9.353, -9.473])
+print(my_vector.component_orthogonal_to(b))
+
+my_vector = Vector([3.009, -6.172, 3.692, -2.51])
+b = Vector([6.404, -9.144, 2.759, 8.718])
+print(my_vector.projection_on(b))
+print(my_vector.component_orthogonal_to(b))
+
+my_vector = Vector([8.462, 7.893, -8.187])
+b = Vector([6.984, -5.975, 4.778])
+print(my_vector.cross_product_with(b))
+
+my_vector = Vector([-8.987, -9.838, 5.031])
+b = Vector([-4.268, -1.861, -8.866])
+print(my_vector.area_of_parallelogram_with(b))
+
+my_vector = Vector([1.5, 9.547, 3.691])
+b = Vector([-6.007, 0.124, 5.772])
+print(my_vector.area_of_triangle_with(b))
