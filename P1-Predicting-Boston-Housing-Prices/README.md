@@ -12,21 +12,23 @@ This project requires **Python 2.7** and the following Python libraries installe
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [matplotlib](http://matplotlib.org/)
 
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
+We will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
 
-### Starting the Project
+We recommend installing [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
+
+### Code
 
 This project contains three files:
 
-- `boston_housing.ipynb`: This is the main file documenting the project.
-- `housing.csv`: The project dataset. You'll load this data in the notebook.
+- `P1-Predicting-Boston-Housing-Prices.ipynb`: This is the main file documenting the project.
+- `housing.csv`: The project dataset. We'll load this data in the notebook.
 - `visuals.py`: This Python script provides supplementary visualizations for the project. Do not modify.
 
-The project is documented in the `P1-Predicting-Boston-Housing-Prices.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file. 
+The project is documented in the `P1-Predicting-Boston-Housing-Prices.ipynb` notebook file. We will also use the `visuals.py`Python file and the `housing.csv` dataset file. 
 
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `boston_housing/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory `P1-Predicting-Boston-Housing-Prices/` (that contains this README) and run one of the following commands:
 
 ```bash
 ipython notebook P1-Predicting-Boston-Housing-Prices.ipynb
@@ -36,7 +38,7 @@ or
 jupyter notebook P1-Predicting-Boston-Housing-Prices.ipynb
 ```
 
-This will open the Jupyter Notebook software and project file in your browser.
+This will open the Jupyter Notebook software and project file in our browser.
 
 ### Data
 
